@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class DiretivaNgifComponent {
 
+  title = 'Cadastro de produto';
+
+  save() {
+    console.log("Salvando produto...");
+  }
 }
