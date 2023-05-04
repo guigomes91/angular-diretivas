@@ -9,7 +9,16 @@ export class DiretivaNgifComponent {
 
   title = 'Cadastro de produto';
 
+  cursos: string[] = [];
+
+  mostrarCurso = false;
+
   save() {
     console.log("Salvando produto...");
+  }
+
+  mostrarCursos() {
+    this.mostrarCurso = true;
+    return this.mostrarCurso;
   }
 }
