@@ -1,0 +1,11 @@
+<p>diretiva-ngclass works!</p>
+
+<h1>
+  <i class="glyphicon"
+  [ngClass]="{
+    'glyphicon-star-empty': !meuFavorito,
+    'glyphicon-star': meuFavorito
+  }"
+  (click)="onClick()"
+  ></i>
+</h1>
