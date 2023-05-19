@@ -1,4 +1,4 @@
-<p appFundoAmarelo>Texto com fundo amarelo</p>
+<!--<p appFundoAmarelo>Texto com fundo amarelo</p>
 
 <button appFundoAmarelo>Botão com fundo amarelo</button>
 
@@ -8,4 +8,14 @@
 
 <p [appHighlight]="'red'" [defaultColor]="'grey'">
   Testo com hightlight com cores customizadas.
-</p>
+</p>-->
+
+<h5>Diretiva Estrutura customizada - ngElse</h5>
+
+<template [appNgElse]="mostrarCursos">
+  <div>Lista de cursos aqui.</div>
+</template>
+
+<br>
+
+<button (click)="onMostrarCursos()"></button>
